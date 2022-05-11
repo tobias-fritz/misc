@@ -1,6 +1,6 @@
 #===============================================================================================
 # Script for returning a list of possible plays for the popular word-game Wordle
-# Date: 11.03.2022
+# Date: 11.05.2022
 # Author: Tobias Fritz
 # Summary:
 # Requires an initial guess that provides a set of rules for the wordlist
