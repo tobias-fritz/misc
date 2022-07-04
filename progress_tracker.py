@@ -1,7 +1,8 @@
-
-
-
-
+#===============================================================================================
+# Keeping track of progress in a for loop made easy!'
+# Date: 11.05.2022
+# Author: Tobias Fritz
+#===============================================================================================
 
 class Progress():
     ''' Keeping track of progress in a for loop made easy!'''
