@@ -1,6 +1,6 @@
 #===============================================================================================
 # Scripts for brain teasers and fun projects
-# Date: 15.05.2022
+# Date: 15.12.2022
 # Author: Tobias Fritz
 #===============================================================================================
 
@@ -16,7 +16,7 @@ def automat(cash, wallet = []):
     #coin dict
     coins = [200,100,50,20,10,5,2,1]
     
-    # iterate from highest to loves
+    # iterate from highest to lowest
     for coin in coins: 
         
         # if the cash value - coin = 0 we're done and can return the set of coins
