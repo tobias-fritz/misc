@@ -50,5 +50,23 @@ def fibonacci_series(position):
         return 1
     else:
         return (fibonacci_series(position-1) + fibonacci_series(position-2))
+      
+#===============================================================================================        
+# multiply two numbers without using multiolication or a loop
+#===============================================================================================
+
+def multiply(A,B,result = 0):
+    ''' multiply tow integer numbers
+      param: 
+            A:  int
+            B:  int
+    '''
+    
+    assert A == int; B == int
+    if A == 0 or B == 0:
+        return result
+      
+    else:
+        return multiply(A-1,B, result + B)
   
           
